@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <form>
+        <label for="name">Nome:</label>
+        <input id="name" type="text" name="nome_usuario">
+        <br>
+        <label for="cor">Cor: </label>
+        <input id="cor" type="color">
+        <br>
+        <label for="">Senha:</label>
+        <input type="password">
+        <br><br>
+        <span>Sexo:</span> <br>
+        <input type="radio" id="m" name="sexo">
+        <label for="">Masculino</label>
+
+        <input type="radio" id="f" name="sexo">
+        <label for="">Feminino</label>
+
+
+        <br>
+
+        <input type="checkbox">
+        <label for="">Li, e aceito os termos de uso.</label>
+
+        <br><br>
+        <label for="">Data: </label>
+        <input type="date">
+
+        <label for="">Hora: </label>
+        <input type="time">
+        <br><br>
+
+        <label for="select_estado">Estado: </label>
+        <select name="estado" id="select_estado">
+            <option value="ce">Ceará</option>
+            <option value="sp">São Paulo</option>
+        </select>
+        <br>
+        <label for="">Texto em área: </label>
+        <textarea rows="3" cols="50" name="" id=""></textarea>
+
+
+        <br><br><br>
+
+        <fieldset>
+            <legend>Informações pessoais</legend>
+
+            <label for="">Nome: </label>
+            <input type="text" placeholder="Nome..." required maxlength="10">
+            <br><br>
+            <label for="">CPF: </label>
+            <input type="text" maxlength="11">
+            <br><br>
+            <label for="">N° Telefone: </label>
+            <input type="number" placeholder="999999999" min="0" max="12" disabled>
+        </fieldset>
+
+        <fieldset>
+            <legend>Endereço</legend>
+
+            <label for="">Rua: </label>
+            <input type="text" name="" id="">
+            <br><br>
+            <label for="">Bairro: </label>
+            <input type="text">
+            <br><br>
+            <label for="">Número: </label>
+            <input type="number">
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+    </form>
+
+    <br><br>
+
+</body>
+
+</html>
