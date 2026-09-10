@@ -1,0 +1,26 @@
+div {
+    text-align: center;
+}
+
+#h11{
+    font-size: 3em;
+    font-style: italic;
+    letter-spacing: 20px;
+}
+
+#h12{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 25px;
+}
+
+p {
+    line-height: 3;
+}
