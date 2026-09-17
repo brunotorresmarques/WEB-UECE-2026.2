@@ -1,0 +1,44 @@
+* {
+    color: white;
+    padding: 15px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 50vh;
+    width: 50vw;
+    max-width: 300px;
+    background-color: black;
+}
+
+
+/* Unidade de medida pixel*/
+.caixa {
+    background-color: rgb(255, 77, 0);
+    height: 500px;
+    width: 300px;
+    border-radius: 25px;
+    font-size: 40px;
+}
+
+#div-filha {
+    border: 3px solid black;
+    background-color: rgb(255, 77, 0);
+    border-radius: 25px;
+    height: 150px;
+    width: 50%;
+    font-size: 1.2rem; /*60px*/
+}
+
+.maximo {
+    background-color: green;
+    min-height: 300px;
+    height: 50vh;
+    width: 50vw;
+
+    margin-top: 300px;
+}
