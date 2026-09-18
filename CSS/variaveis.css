@@ -1,0 +1,16 @@
+:root {
+    --bgcor: blue;
+    --cor: white;
+    --valor: 4;
+}
+
+* {
+    background-color: var(--bgcor);
+    color: var(--cor);
+}
+
+div {
+    height: 100px;
+    width: calc(100px * 2 );
+    background-color: var(--cor);
+}
