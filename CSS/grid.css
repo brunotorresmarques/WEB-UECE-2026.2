@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+.pai {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 400px));
+    grid-template-rows: 1fr 4fr;
+    height: 100vh;
+}
+
+.itens {
+    background-color: rgb(164, 255, 37);
+    border: 3px solid black;
+    min-height: 100px;
+    min-width: 100px;
+}
+
+#primeiro {
+    grid-row: 1 / 5;
+    display: grid;
+    place-items: center;
+}
+
+.item1 {
+    background-color: blue;
+    
+}
+
+.item2 {
+    background-color: red;
+}
