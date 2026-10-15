@@ -1,0 +1,12 @@
+[
+    {
+        "nome": "Bruno",
+        "idade": 20,
+        "cpf": "7236623"
+    },
+    {
+        "nome": "Maria",
+        "idade": 20,
+        "cpf": "1234"
+    }
+]
