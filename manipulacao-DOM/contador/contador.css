@@ -29,3 +29,7 @@ button {
     font-size: 3em;
     border-radius: 25px;
 }
+
+.tema {
+    background-color: rgb(230, 0, 0);
+}

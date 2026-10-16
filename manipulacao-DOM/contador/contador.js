@@ -2,6 +2,14 @@ let contador = 0
 
 document.querySelector("span").textContent = contador
 
+let menos = document.querySelector("#menos")
+let mais = document.querySelector("#mais")
+
+menos.addEventListener("click",()=> subtrair())
+
+
+mais.addEventListener("click",()=> somar())
+
 
 function somar() {
     contador += 1
@@ -16,4 +24,10 @@ function subtrair() {
         alert("O número não pode ser decrementado!")
     }
 
+}
+
+
+function trocarTema(){
+    let div = document.querySelector("div")
+    div.classList.toggle("tema")
 }
